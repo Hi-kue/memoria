@@ -31,7 +31,7 @@ There are many key features to memoria of which include but are not limited to:
 *TL;DR There is a lot to take into account!*
 
 <p align="center">
-    <img width="600" src="../memoria/src/assets/Markdown.png" alt="memoria-markdown">
+    <img width="600" src="./src/assets/Markdown.png" alt="memoria-markdown">
 </p>
 
 # Getting Started
@@ -51,4 +51,4 @@ $ npm install
 $ npm run dev
 ```
 
-From there you will be able to see the website in a localhost with it being something like: `http://localhost:0000/`
+From there you will be able to see the website in a localhost with it being something like : `http://localhost:0000/`
