@@ -1,47 +1,54 @@
-# Svelte + Vite
+---
+title: Memoria
+year: 2023
+license: MIT License
+authors: To-list
+---
+# Memoria
 
-This template should help get you started developing with Svelte in Vite.
+Memoria is an interactive online learning plateform aimed at providing individuals at all age levels a comprehensive education. With a user-friendly and engaging interface, Memoria tends to make learning enjoyable and accessible for anyone who is looking to learn and grow. 
 
-## Recommended IDE Setup
+Memoria covers a wide range of subjects, some including but not limited to:
+1. Math;
+2. Science;
+3. Social Studies;
+4. Psychology, Anthropology, Sociology;
+5. Language Arts;
+6. and more!
 
-[VS Code](https://code.visualstudio.com/) + [Svelte](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode).
+## Key Features
+There are many key features to memoria of which include but are not limited to:
+1. **Engaging Lessons**: Each lesson within memoria is designed to capture attention to detail and provide a broader understanding of the context behind why things work the way they do.
+   
+2. **Adaptive Learning & Framework**: Memoria is designed to keep you continously learning with engaging and adapting learning modules to fit your need. 
+   
+3. **Gamefied Progression System**: Memoria utilizes a game-like system where invidiuals are given the chance to hone their skills and progress towards a better rank. The ranking system is not determined at this stage, but as of now the ranking system is similar to that of many progressive combatesque games.
+   
+4. **Community & Support**: When it comes to learning, having a community that is there to support each other is important. Memoria intends to build a community for every subject or field, regardless of your level of education, you are welcome wherever.
+   
+5. **Safe & Secure Environemnt**: Learning can be hard and difficult and the last thing anyone wants to worry about is not having their own safety net when something becomes tough. We understand that, we understand you and intend to make it possible for everyone to learn at their own speeds without having to rely on a time-based system of modules.
 
-## Need an official Svelte framework?
+*TL;DR There is a lot to take into account!*
 
-Check out [SvelteKit](https://github.com/sveltejs/kit#readme), which is also powered by Vite. Deploy anywhere with its serverless-first approach and adapt to various platforms, with out of the box support for TypeScript, SCSS, and Less, and easily-added support for mdsvex, GraphQL, PostCSS, Tailwind CSS, and more.
+<p align="center">
+    <img width="600" src="../memoria/src/assets/Markdown.png" alt="memoria-markdown">
+</p>
 
-## Technical considerations
+# Getting Started
 
-**Why use this over SvelteKit?**
-
-- It brings its own routing solution which might not be preferable for some users.
-- It is first and foremost a framework that just happens to use Vite under the hood, not a Vite app.
-
-This template contains as little as possible to get started with Vite + Svelte, while taking into account the developer experience with regards to HMR and intellisense. It demonstrates capabilities on par with the other `create-vite` templates and is a good starting point for beginners dipping their toes into a Vite + Svelte project.
-
-Should you later need the extended capabilities and extensibility provided by SvelteKit, the template has been structured similarly to SvelteKit so that it is easy to migrate.
-
-**Why `global.d.ts` instead of `compilerOptions.types` inside `jsconfig.json` or `tsconfig.json`?**
-
-Setting `compilerOptions.types` shuts out all other types not explicitly listed in the configuration. Using triple-slash references keeps the default TypeScript setting of accepting type information from the entire workspace, while also adding `svelte` and `vite/client` type information.
-
-**Why include `.vscode/extensions.json`?**
-
-Other templates indirectly recommend extensions via the README, but this file allows VS Code to prompt the user to install the recommended extension upon opening the project.
-
-**Why enable `checkJs` in the JS template?**
-
-It is likely that most cases of changing variable types in runtime are likely to be accidental, rather than deliberate. This provides advanced typechecking out of the box. Should you like to take advantage of the dynamically-typed nature of JavaScript, it is trivial to change the configuration.
-
-**Why is HMR not preserving my local component state?**
-
-HMR state preservation comes with a number of gotchas! It has been disabled by default in both `svelte-hmr` and `@sveltejs/vite-plugin-svelte` due to its often surprising behavior. You can read the details [here](https://github.com/sveltejs/svelte-hmr/tree/master/packages/svelte-hmr#preservation-of-local-state).
-
-If you have state that's important to retain within a component, consider creating an external store which would not be replaced by HMR.
-
-```js
-// store.js
-// An extremely simple external store
-import { writable } from 'svelte/store'
-export default writable(0)
+To get started working with memoria and the contents situated within this repo, clone the repo by simply following these steps:
+1. Open Git Bash;
+2. Chante the current working directory to the location where you want the cloned directory;
+3. Type `git clone`, and then paste the URL as such:
+```tex
+$ git clone https://github.com/Hi-kue/memoria
 ```
+
+This should be able to give you everything you need from within the file. In order to build for npm and the rest of the svelte components follow this:
+```tex
+$ cd memoria
+$ npm install
+$ npm run dev
+```
+
+From there you will be able to see the website in a localhost with it being something like: `http://localhost:0000/`
