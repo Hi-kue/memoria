@@ -1,9 +1,3 @@
----
-title: Memoria
-year: 2023
-license: MIT License
-authors: To-list
----
 # Memoria
 
 Memoria is an interactive online learning plateform aimed at providing individuals at all age levels a comprehensive education. With a user-friendly and engaging interface, Memoria tends to make learning enjoyable and accessible for anyone who is looking to learn and grow. 
